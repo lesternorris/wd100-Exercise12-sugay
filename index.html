@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container bg-dark text-white">
+        <h2>Height Conversion</h2>
+        <div class="input-group">
+            <label for="feet">Feet:</label>
+            <input type="number" id="feet" class="input-field">
+        </div>
+        <div class="input-group">
+            <label for="inches">Inches:</label>
+            <input type="number" id="inches" class="input-field">
+        </div>
+        <div class="input-group">
+            <label for="centimeters">Centimeters:</label>
+            <input type="number" id="centimeters" class="input-field">
+        </div>
+        <button onclick="convertHeight()" class="btn">Convert</button>
+        <div class="result">
+            <p id="feetToInches">0</p>
+            <p id="feetToCentimeters"></p>
+            <p id="inchesToFeet"></p>
+            <p id="inchesToCentimeters"></p>
+            <p id="centimetersToFeet"></p>
+            <p id="centimetersToInches"></p>
+        </div>
+    </div>
+
+
+</body>
+<script src="main.js"></script>
+</html>
